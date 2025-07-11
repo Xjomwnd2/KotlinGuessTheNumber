@@ -19,8 +19,9 @@ A simple **Guess The Number** game written in **Kotlin**, plus a tiny unit test 
 
 ---
 
-## 🗂️ Project structure
+## 🗂️ Project production Video
 
+YouTube.com: https://www.youtube.com/watch?v=f2nP-j-BlOc/
 
 ---
 
