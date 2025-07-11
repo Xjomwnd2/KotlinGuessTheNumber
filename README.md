@@ -33,11 +33,12 @@ A simple **Guess The Number** game written in **Kotlin**, plus a tiny unit test 
 # TESTING THE CODES (Main.kt and MainTest.kt)
 
 real flow is:
-
+# Main.kt
 powershell
 
 cd "C:\Users\Joel Ndiba Mwaura\OneDrive\Desktop\KotlinGuessTheNumber" kotlinc src/main/kotlin/Main.kt -include-runtime -d Main.jar java -jar Main.jar And for the test:
 
+# MainTest.kt
 powershell
 
 kotlinc src/MainTest.kt -include-runtime -d MainTest.jar java -jar MainTest.jar
