@@ -57,3 +57,7 @@ Copy
 
 java -jar Main.jar
 
+# MainTest.kt
+
+kotlinc src/MainTest.kt -include-runtime -d MainTest.jar
+java -jar MainTest.jar
