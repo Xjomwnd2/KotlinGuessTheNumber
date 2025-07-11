@@ -32,13 +32,28 @@ A simple **Guess The Number** game written in **Kotlin**, plus a tiny unit test 
 🗂️ Project structure
 # TESTING THE CODES (Main.kt and MainTest.kt)
 
-real flow is:
-# Main.kt
+How to fix it — do this exactly:
+
+1️⃣ Make sure you’re still in the folder:
+
 powershell
+Copy
 
-cd "C:\Users\Joel Ndiba Mwaura\OneDrive\Desktop\KotlinGuessTheNumber" kotlinc src/main/kotlin/Main.kt -include-runtime -d Main.jar java -jar Main.jar And for the test:
+cd "C:\Users\Joel Ndiba Mwaura\OneDrive\Desktop\KotlinGuessTheNumber"
 
-# MainTest.kt
+2️⃣ Confirm the .jar really exists:
+
 powershell
+Copy
 
-kotlinc src/MainTest.kt -include-runtime -d MainTest.jar java -jar MainTest.jar
+dir
+
+Look for Main.jar in the list.
+
+3️⃣ Run it exactly like this:
+
+powershell
+Copy
+
+java -jar Main.jar
+
