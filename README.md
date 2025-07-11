@@ -25,25 +25,19 @@ A simple **Guess The Number** game written in **Kotlin**, plus a tiny unit test 
 ---
 
 ## ⚙️ How to run the game
+ # How does it work?
+    • Main.kt: This is the main game loop.
+    • MainTest.kt: A small unit test to verify the checkGuess function works correctly.
 
-1️⃣ **Open terminal / PowerShell**
+🗂️ Project structure
+# TESTING THE CODES (Main.kt and MainTest.kt)
 
-2️⃣ Navigate to the project folder:
+real flow is:
 
-```bash
+powershell
 
-cd "C:\Users\Joel Ndiba Mwaura\OneDrive\Desktop\KotlinGuessTheNumber"
-Compile the game:
+cd "C:\Users\Joel Ndiba Mwaura\OneDrive\Desktop\KotlinGuessTheNumber" kotlinc src/main/kotlin/Main.kt -include-runtime -d Main.jar java -jar Main.jar And for the test:
 
-kotlinc src/main/kotlin/Main.kt -include-runtime -d Main.jar
+powershell
 
-4️⃣ Run the game:
-
-java -jar Main.jar
-
-🧪 How to run the test
-
-```bash
-
-kotlinc src/MainTest.kt -include-runtime -d MainTest.jar
-java -jar MainTest.jar
+kotlinc src/MainTest.kt -include-runtime -d MainTest.jar java -jar MainTest.jar
