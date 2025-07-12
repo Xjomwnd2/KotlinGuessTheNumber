@@ -62,3 +62,8 @@ java -jar Main.jar
 
 kotlinc src/MainTest.kt -include-runtime -d MainTest.jar
 java -jar MainTest.jar
+
+# Run it in TWO clear steps:
+
+kotlinc src/MainTest.kt -include-runtime -d MainTest.jar
+java -jar MainTest.jar
